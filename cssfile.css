@@ -266,7 +266,7 @@ img{
   
   /* List items */
   .price li {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #eee;
     padding: 20px;
     text-align: center;
   }
@@ -296,62 +296,39 @@ img{
     }
   }
 /* contact us */
-.contact-us {
-	background-image: url('img6.jpg'); /* Replace 'contact-bg.jpg' with your desired background image */
-	background-size: cover;
-	background-position: center;
+.cavitation-article {
 	padding: 100px 0;
-	text-align: center;
   }
   
-  .container {
+  .cavitation-article .container {
 	max-width: 800px;
 	margin: 0 auto;
   }
   
-  .contact-us h2 {
-	color: #ffffff;
+  .cavitation-article h2 {
+	text-align: center;
 	font-size: 36px;
 	margin-bottom: 30px;
   }
   
-  .form-group {
+  .article-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .article-image {
+	width: 100%;
+	max-width: 400px;
+	border-radius: 8px;
 	margin-bottom: 20px;
   }
   
-  label {
-	color: #ffffff;
+  .article-content p {
 	font-size: 18px;
+	line-height: 1.6;
   }
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
-	width: 100%;
-	padding: 10px;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-  }
-  
-  textarea {
-	resize: vertical;
-  }
-  
-  .btn {
-	background-color: #007bff;
-	color: #000000;
-	padding: 12px 30px;
-	font-size: 16px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-	background-color: #0056b3;
-  }
   /* last part */
   .contact-info {
 	background-color: #f4f4f4;
